@@ -1,0 +1,13 @@
+<script>
+function httpGet(theUrl,userEmail)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+  
+let userEmail =  localStorage.getItem("garlic:www.bnbsuccessacademy.com*>input.email");
+httpGet("https://hooks.zapier.com/hooks/catch/13505073/bp98fvk/",userEmail)
+  
+</script>
